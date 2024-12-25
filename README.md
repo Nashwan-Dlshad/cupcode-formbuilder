@@ -1,13 +1,12 @@
 
-# Project Title  
+# Cupcode/Formbuilder  
 This is an example ReadMe with light selections.  
 
 ## Installation  
 
-Clone the project  
-
 ~~~bash  
-  composer require
+  composer require cupcode/formbuilder
+  php artisan cupcode:formbuilder
 ~~~
 
 
@@ -54,7 +53,7 @@ Vue Page
 </template>
 
 <script setup>
-    import {Form} from 'easyformbuilder'
+    import {Form, ModalForm} from 'cupcodeformbuilder'
     const props = defineProps(['forms']);
 </script>
 ~~~
