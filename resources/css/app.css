@@ -1,0 +1,17 @@
+@import 'vuetify/styles';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply focus:!ring-0 focus:!border-0 focus:!outline-none 
+}
+input[type="text"] {
+    @apply bg-inherit ;
+}
+
+textarea{
+    @apply bg-inherit;
+}
+/* .filepond--item { width: calc(50% - .5em); } */
